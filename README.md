@@ -109,6 +109,13 @@ sudo docker compose up -d
 sudo docker compose up -d
 ```
 
+### Mejalankan, Stop dan restart compose
+```bash
+sudo docker compose start anti-spoof-api
+sudo docker stop anti-spoof-api
+sudo docker compose restart anti-spoof-api
+```
+
 ### Melihat logs
 ```bash
 sudo docker compose logs -f anti-spoof-api

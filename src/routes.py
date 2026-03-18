@@ -44,6 +44,7 @@ def _validate_image_size(image: Image.Image) -> None:
 
 
 @router.post("/predict")
+# Di gunakan untuk prediksi
 async def predict_image(file: UploadFile = File(...)) -> dict:
     content = await file.read()
     if not content:
