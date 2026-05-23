@@ -500,5 +500,5 @@ curl -X POST "http://localhost:8000/model/load" \
 
 ## Lisensi
 
-MIT License
+BeevoraLabs License
 
